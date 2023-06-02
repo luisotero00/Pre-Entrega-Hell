@@ -28,9 +28,16 @@
 }
 
 .linksNav {
+    text-decoration: none;
     display: flex;
     margin: 15px;
+    gap: 10px;
     
 }
+
+.linksNav > NavLink {
+    color: #2d1084;
+}
+
 
 

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+
+.CardItem {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #2d1084;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardItem:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 6);
+    transform: translateY(-2%);
+
+}
+
+.CardItem img {
+    width: 100%;
+
+}
+
+.Header {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+
+.Info {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+
+.ItemFooter {
+    margin: 10px;
+}
+
+.Option {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0.5cm;
+    background-color: #E3FF55;
+    border-radius: 8px;
+    color: black;
+}

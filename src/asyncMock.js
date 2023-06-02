@@ -9,6 +9,7 @@ const products = [
         description: 'Descripcion zapato'
 
     },
+    
 
     {
         id: '2',
@@ -18,7 +19,17 @@ const products = [
         img: 'https://cdn.shopify.com/s/files/1/0280/7070/7271/products/off-white-air-jordan-1-the-ten-AA3834-101-4_a8dd5854-cf63-4a8a-a496-72f4294037c1.jpg?v=1651077347',
         stock: 12,
         description: 'Descripcion zapato'
-    }
+    },
+
+    {
+        id: '3',
+        name: 'Jordan 1 Balvin',
+        price: 800,
+        category: 'jordan',
+        img: 'https://cdn-3.expansion.mx/dims4/default/3d9f328/2147483647/strip/true/crop/800x550+0+0/resize/600x413!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F75%2F56%2F434f445841da88068c4c51a18284%2Fj-balvin-air-jordan.jpg',
+        stock: 8,
+        description: 'Descripcion zapato'
+    },
 ]
 
 export const getProducts = () => {
