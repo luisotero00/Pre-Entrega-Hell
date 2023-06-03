@@ -1,76 +1,22 @@
-import React from "react";
+import React from 'react';
+import '../Footer/Footer.css'
 
-export const Footer = () => {
-    return (
-        <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        {/* <!-- Grid container --> */}
-        <div class="container pt-4">
-        {/*   <!-- Section: Social media --> */}
-          <section class="mb-4">
-          {/*   <!-- Facebook --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            {/* <!-- Twitter --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-           {/*  <!-- Google --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-           {/*  <!-- Instagram --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-           {/*  <!-- Linkedin --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            {/* <!-- Github --> */}
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-         {/*  <!-- Section: Social media --> */}
+const Footer = () => {
+  return (
+    <footer className='Footer'>
+      <div className='Footer-Container'>
+
+        <div className='Footer-links'>
+          <h4>HellShoes</h4>
+          <ul className='links'>
+            <li><a href='#'>Facebook</a></li>
+            <li><a href='#'>Instagram</a></li>
+            <li><a href='#'>Twitter</a></li>
+          </ul>
         </div>
-        {/* <!-- Grid container --> */}
-      
-      {/*   <!-- Copyright --> */}
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        {/* <!-- Copyright --> */}
-      </footer>
-    )
-}
+      </div>
+    </footer>
+  );
+};
+
 export default Footer

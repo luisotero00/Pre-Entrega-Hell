@@ -30,6 +30,16 @@ const products = [
         stock: 8,
         description: 'Descripcion zapato'
     },
+    {
+        id: '4',
+        name: 'Jordan 4 Offwhite',
+        price: 800,
+        category: 'jordan',
+        img: 'https://image.goat.com/attachments/product_template_additional_pictures/images/083/344/816/medium/603678_08.jpg.jpeg?1673287551',
+        stock: 8,
+        description: 'Descripcion zapato'
+    },
+   
 ]
 
 export const getProducts = () => {

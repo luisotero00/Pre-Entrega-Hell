@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hellshoes
 
-## Available Scripts
+¡Bienvenido a HellShoes, el e-commerce de zapatos más increíble! Aquí encontrarás una amplia selección de zapatos de alta calidad para satisfacer tus necesidades de calzado. Este proyecto es un e-commerce desarrollado con el objetivo de proporcionar una experiencia de compra en línea fácil y conveniente para los amantes de los zapatos.
 
-In the project directory, you can run:
 
-### `npm start`
+## Caracteristicas 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Explora una amplia gama de zapatos y encuentra el par perfecto para ti.
+- Filtra los productos por categoría, marca, estilo, talla y más.
+- Explora los detalles de cada producto, incluyendo imágenes, descripciones, precios y disponibilidad.
+- Añade tus zapatos favoritos al carrito de compras y gestiona las unidades seleccionadas.
+- Procede al proceso de pago seguro y realiza pedidos con confianza.
+- Mantén un registro de tus pedidos anteriores y revisa el estado de entrega.
+- Administra tu cuenta de usuario, actualiza información personal y direcciones de envío.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías Utilizadas
 
-### `npm test`
+- **Frontend**: React, HTML5, CSS3
+- **Backend**: Node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+1. Clona este repositorio: `git clone https://github.com/luisotero00/Pre-Entrega-Hell`
+2. Navega al directorio del proyecto: `cd hellshoesv2`
+3. Instala las dependencias: `npm install`
+4. Inicia la aplicación: `npm start`
+5. Abre tu navegador web y visita `http://localhost:3000` para ver HellShoes en acción.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estructura de Archivos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `src/components`: Contiene los componentes reutilizables utilizados en la interfaz de usuario.
+- `src/pages`: Contiene las páginas principales de la aplicación, como la página de inicio, página de productos, carrito de compras, etc.
+- `src/styles`: Contiene los estilos globales y archivos CSS para la aplicación.
+- `src/data`: Contiene los datos de ejemplo utilizados para productos, usuarios, pedidos, etc.
+- `src/services`: Contiene los servicios de API para interactuar con el backend y gestionar los datos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribución
 
-### `npm run eject`
+¡Las contribuciones son bienvenidas! Si deseas colaborar con HellShoes, no dudes en abrir un pull request. Asegúrate de seguir las mejores prácticas de desarrollo y de documentar tus cambios de manera adecuada.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

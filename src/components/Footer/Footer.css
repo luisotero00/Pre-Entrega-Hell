@@ -1,0 +1,9 @@
+.Footer-links ul {
+    list-style: none;
+    font-family: 'Chakra Petch', sans-serif;
+    color: black;
+}
+
+.links a{
+    text-decoration: none;
+}

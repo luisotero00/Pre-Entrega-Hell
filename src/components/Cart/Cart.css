@@ -1,0 +1,16 @@
+.Cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.Cart h3{
+    color: white;
+}
+
+.Button{
+    height: auto;
+    width: auto;
+}

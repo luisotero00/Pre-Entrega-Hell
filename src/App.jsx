@@ -6,11 +6,11 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Cart from './components/Cart/Cart'
-import { Footer } from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <body>
-      <Footer/>
+    
       <div className="App">
 
 
@@ -26,7 +26,7 @@ function App() {
             </Routes>
           </CartProvider>
         </BrowserRouter>
-       
+       <Footer className='Footer'/>
       </div>
     </body>
 
