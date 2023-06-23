@@ -1,4 +1,6 @@
-.ListGroup{
-    display: flex;
-    flex-wrap: wrap;
+.ListGroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }

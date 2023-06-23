@@ -1,43 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,700;1,400&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.NavBar {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  background-color: #e3ff55;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  width: 100%;
 }
 
-.NavBar{
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 20px;
-    background-color: #E3FF55;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 85px;
-    
-}
-    
-
-.titleNav h3{
-    cursor: pointer;
-    margin: 10px;
-    color: #2d1084;
-    text-decoration: none;
-
+.titleNav h3 {
+  cursor: pointer;
+  margin: 10px;
+  color: #2d1084;
+  text-decoration: none;
 }
 
 .linksNav {
-    text-decoration: none;
-    display: flex;
-    margin: 15px;
-    gap: 10px;
-    
+  text-decoration: none;
+  display: flex;
+  margin: 15px;
+  gap: 10px;
 }
 
 .linksNav > NavLink {
-    color: #2d1084;
+  color: #2d1084;
 }
-
-
-
