@@ -1,4 +1,14 @@
-h3{
+.Check{
     text-align: center;
+    font-family: "Chakra Petch", sans-serif;
     color: white;
+    background-color: purple;
+    margin: 250px;
+    
+}
+
+.formulario{
+    margin: 20px;
+    height: auto;
+    width: auto;
 }
